@@ -1,0 +1,69 @@
+.form{
+    width: 100vw;
+    .form-main{
+
+        width: 80%;
+        margin: 0 auto;
+        padding: 3rem 0;
+
+        form{
+            text-align: center;
+            width: 90%;
+            margin: 0 auto;
+            padding: 2rem 0;
+            h1{
+                text-align: center;
+            }
+            
+            .form-name{
+                text-align: center;
+                display: inline-block;
+                padding: .5rem 0;
+                border-top: none;
+                border-left: none;
+                border-right: none;
+                margin: 1rem .2rem;
+                border-bottom: solid 1px $secondaryfontcolor;
+
+            }
+            .form-number{
+                text-align: center;
+                display: inline-block;
+                padding: .5rem 0;
+                border-top: none;
+                border-left: none;
+                border-right: none;
+                margin: 1rem .2rem;
+                border-bottom: solid 1px $secondaryfontcolor;
+            }
+            .form-mail{
+                text-align: center;
+                display: inline-block;
+                padding: .5rem 0;
+                border-top: none;
+                border-left: none;
+                border-right: none;
+                margin: 1rem .2rem;
+                border-bottom: solid 1px $secondaryfontcolor;
+            }
+            .form-box{
+                display: inline-block;
+                margin: .5rem 0;
+            } 
+            .form-label{
+            font-size: 1rem;    
+            }
+            .comment{
+                width: 25rem;
+                text-align: center;
+                display: inline-block;
+                padding: .5rem 0;
+                border-top: none;
+                border-left: none;
+                border-right: none;
+                margin: 1rem .2rem;
+                border-bottom: solid 1px $secondaryfontcolor;
+            }
+        }
+    }
+}

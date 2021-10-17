@@ -1,0 +1,81 @@
+//hambuger
+
+.hambuger {
+    width: 5rem;
+    height: 5rem;
+    background-color: $submainbackgdcolor;
+    position: absolute;
+    right: .2rem;
+    border-radius: 50%;
+    border: none;
+    z-index: 5;
+
+
+    .bar-1 {
+        background-color: $mainfontcolor;
+        width: 3.2rem;
+        height: .3rem;
+        margin: -1rem auto .5rem;
+        border-radius: 1rem;
+    }
+
+    .bar-2 {
+        background-color: $mainfontcolor;
+        width: 2rem;
+        height: .3rem;
+        margin: 0 -1rem 0 2rem;
+        border-radius: 1rem;
+    }
+
+    .bar-3 {
+
+        background-color: $mainfontcolor;
+        width: 3.2rem;
+        height: .3rem;
+        margin: .5rem auto -.5rem;
+        border-radius: 1rem;
+    }
+}
+
+
+//navbar
+.navbar {
+    position: absolute;
+    top: 0;
+    display: none;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background: rgba(10, 35, 66, 0.253);
+    background: radial-gradient(circle, rgba(10, 35, 66, 0.733) 50%, rgba(0, 0, 63, 0.719) 100%);
+    animation-name: moveInFromTop;
+    animation-duration: 1.5s;
+    z-index: 3;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+}
+
+.navbar-items {
+    list-style: none;
+    margin-top: 20%;
+
+    @media(min-width:767px) {
+         margin-top: 10%;
+    }
+
+    .navbar-item {
+
+        padding: 1rem;
+
+        a {
+            color: $mainfontcolor;
+            text-decoration: none;
+            font-family: $paragraphfont;
+            font-size: 2.5rem;
+            font-weight: bold;
+            &:hover{
+                border: dotted $mainfontcolor;
+            }
+        }
+        
+    }
+}

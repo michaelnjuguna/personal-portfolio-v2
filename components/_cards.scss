@@ -1,0 +1,124 @@
+.card {
+    display: inline-block;
+    width: 18rem;
+    height: 18rem;
+    margin-top: 3rem;
+    backdrop-filter: blur(12.0px);
+    border-radius: 10px;
+    border: 1px solid $subbluebsckgdcolor;
+    box-shadow: 0 8px 32px 0 $sublightbackgdcolor;
+
+    i {
+        padding-top: 2rem;
+    }
+
+    h3 {
+        font-size: 1.6rem;
+        line-height: 1.5;
+        padding-top: 2rem;
+        font-family: $mainheaderfont;
+
+    }
+
+    p {
+        font-size: 1.6rem;
+        font-family: $paragraphfont;
+    }
+
+    img {
+        width: 100%;
+        border-radius: 10px;
+    }
+}
+
+.card1 {
+    background: rgb(122, 215, 240);
+    background: radial-gradient(circle, rgba(122, 215, 240, 1) 50%, rgba(146, 223, 243, 1) 100%);
+    color: $mainfontcolor;
+    margin: 1rem;
+}
+
+
+
+
+.card-ex {
+    color: $secondaryfontcolor;
+    min-height: 12rem;
+    background-color: $mainfontcolor;
+    margin: 0 auto;
+
+    i {
+        margin-top: 1rem;
+        color: $buttoncolor;
+    }
+
+    h5 {
+        font-family: $logofont;
+        font-size: 1.8rem;
+    }
+
+    p {
+        font-family: $paragraphfont;
+        font-size: 1.5rem;
+    }
+}
+
+.card2 {
+    background: rgb(10, 35, 66);
+    background: radial-gradient(circle, rgba(10, 35, 66, 0.7) 50%, rgba(0, 0, 63, 0.7) 100%);
+    border: 1px solid $subbluebsckgdcolor;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(13.0px);
+    color: $mainfontcolor;
+    height: 18rem;
+    margin: 2rem auto;
+    font-family: $mainheaderfont;
+    font-size: 2rem;
+    border-radius: 10px;
+    width: 20rem;
+    text-align: center;
+
+    h1 {
+        padding-top: 2rem;
+    }
+}
+
+
+.skill-card {
+    font-size: 2rem;
+    padding: 2rem 0;
+
+    h5 {
+        font-family: $paragraphfont;
+        font-weight: 600;
+        padding: 1rem 0;
+    }
+
+    i {
+        color: $buttoncolor;
+        font-size: 2.5rem;
+    }
+}
+
+
+.card3 {
+    border-radius: 11px;
+    background: #e0e0e0;
+    box-shadow:  8px 8px 24px #c1c1c1,
+                 -8px -8px 24px #ffffff;
+                 margin: 2rem 0;
+
+    &-main {
+        width: 95%;
+        margin: 0 auto;
+        padding: 2rem 0;
+        h2{
+            text-align: left;
+            font-family: $mainheaderfont;
+            color: $secondaryfontcolor;
+        }
+        .progress{
+            margin-bottom: 1rem;
+        }
+    }
+}

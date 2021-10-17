@@ -1,0 +1,218 @@
+.services-index {
+    background: rgb(24, 123, 205);
+    background: radial-gradient(circle, rgba(24, 123, 205, 1) 50%, rgba(42, 157, 244, 1) 100%);
+    width: 100vw;
+    min-height: 70vh;
+    position: relative;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+
+    &__main {
+        width: 80%;
+        margin: 0 auto;
+        padding: 5rem 0;
+        line-height: 1.5;
+
+        h1 {
+            text-align: center;
+            padding: 1rem 0;
+            font-size: 3rem;
+        }
+
+        h2 {
+            text-align: center;
+            margin: 1rem 0;
+            backdrop-filter: none;
+        }
+
+        h3 {
+            text-align: center;
+        }
+
+        button {
+            margin: 1rem 0;
+        }
+
+        .service-img {
+            @media (max-width:767px) {
+                padding: 2rem 0;
+            }
+
+            img {
+                width: 80%;
+                margin: 0 auto;
+            }
+        }
+    }
+}
+
+
+//planning
+
+.planning {
+    width: 100vw;
+
+    &-main {
+        width: 80%;
+        margin: 0 auto;
+        padding: 2rem 0;
+
+        h1 {
+            text-align: center;
+        }
+
+        .planning-info {
+            line-height: 1.5;
+
+            ul {
+                list-style: none;
+
+                li {
+                    text-align: center;
+                }
+            }
+        }
+
+        .planning-img {
+            @media (max-width:767px) {
+                padding: 2rem 0;
+            }
+
+            img {
+                width: 80%;
+                text-align: center;
+            }
+        }
+    }
+}
+
+
+//design
+
+.design {
+    width: 100vw;
+    background: rgb(122, 215, 240);
+    background: radial-gradient(circle, rgba(122, 215, 240, 1) 50%, rgba(146, 223, 243, 1) 100%);
+    clip-path: polygon(0 10%, 100% 0, 100% 90%, 0% 100%);
+
+    &-main {
+        width: 80%;
+        margin: 0 auto;
+        padding: 10rem 0;
+
+        h1 {
+            text-align: center;
+        }
+
+        .design-info {
+            padding: 2rem 0;
+            line-height: 1.5;
+        }
+
+        .design-img {
+            img {
+                width: 80%;
+
+            }
+        }
+    }
+}
+
+
+//development
+
+.development {
+    width: 100vw;
+
+    .development-main {
+        width: 80%;
+        margin: 0 auto;
+        padding: 2rem 0;
+
+        .development-info {
+            @media (min-width:767px) {
+                padding: 2rem 0;
+            }
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        p {
+            text-align: left;
+            line-height: 1.5;
+        }
+
+        .development-img {
+            img {
+                width: 80%;
+                margin: 0 auto;
+            }
+        }
+    }
+}
+
+
+//testing and delivery
+
+.testing {
+    width: 100vw;
+    background: rgb(24, 123, 205);
+    background: radial-gradient(circle, rgba(24, 123, 205, 1) 50%, rgba(42, 157, 244, 1) 100%);
+    width: 100vw;
+    clip-path: polygon(0 10%, 100% 0, 100% 90%, 0% 100%);
+
+    .testing-main{
+        width: 80%;
+        margin: 0 auto;
+        padding: 7rem 0;
+        .testing-info{
+            padding: 2rem 0;
+        }
+        h1{
+            text-align: center;
+        }
+        p{
+            line-height: 1.5;
+        }
+
+        .testing-img{
+            @media (min-width:767px) {
+                padding: 2rem .5rem;
+            }
+            img{
+                width: 80%;
+                margin: 0 auto;
+            }
+        }
+    }
+}
+
+
+//maintenance
+
+.maintenance{
+    width: 100vw;
+    &-main{
+        width: 80%;
+        margin: 0 auto;
+        padding: 2rem 0;
+        h1{
+            text-align: center;
+        }
+        .maintenance-info{
+            @media (min-width:767px) {
+                padding: 2rem 0;
+            }
+            p{
+                line-height: 1.5;
+            }
+        }
+        .maintenance-img{
+            img{
+                width: 80%;
+                margin: 0 auto;
+            }
+        }
+    }
+}

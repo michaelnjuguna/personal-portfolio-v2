@@ -1,0 +1,44 @@
+//navbar btn
+
+.index-cta {
+    background-color: $buttoncolor;
+    border: none;
+    color: $mainfontcolor;
+    font-family: $paragraphfont;
+    font-size: 1.8rem;
+    padding: .5rem;
+    border-radius: 8px;
+
+    &:hover {
+        border-bottom: solid $mainfontcolor;
+    }
+}
+
+.cta-btn {
+    font-family: $paragraphfont;
+    color: $mainfontcolor;
+    background-color: $mainbluebackgdcolor;
+    font-size: 2rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid 1px $mainfontcolor;
+    border-radius: 2px;
+}
+
+.downld-btn {
+    background-color: $buttoncolor;
+    color: $mainfontcolor;
+    font-size: 1.5rem;
+    border: none;
+    margin-left: .5rem;
+    padding: 1rem;
+    border-radius: 10px;
+    font-family: $paragraphfont;
+    font-weight: 600;
+
+    &:hover {
+        padding: 1rem;
+    }
+}
+

@@ -1,0 +1,35 @@
+.icon1{
+    position: absolute;
+    color: white;
+    left: -4rem;
+}
+
+.icon2{
+    position: absolute;
+    color: $headercolor;
+    right: 1rem;
+}
+
+.icon3{
+    padding-top: .5rem;
+    color: $buttoncolor;
+    transform: rotate(45deg) translateY(2rem) ;
+    
+}
+
+.sm-icons{
+    position: absolute;
+    bottom: 10rem;
+    right: 3rem;
+    @media (min-width:910px){
+        bottom: 15rem;
+        right: 5rem;
+    }
+    a{
+        display: block;
+        color: white;
+        padding: .5rem;
+
+    }
+}
+

@@ -1,0 +1,62 @@
+footer {
+    background: #ECE9E6;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #ECE9E6);
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    .footer {
+        width: 80%;
+        margin: 0 auto;
+        padding: 2rem 0;
+        text-align: center;
+        color: $secondaryfontcolor;
+        font-family: $paragraphfont;
+
+        h1 {
+            font-family: $cursivefont;
+            font-size: 3rem;
+            letter-spacing:.5rem ;
+            word-spacing: .5rem;
+
+        }
+
+        h2 {
+            font-family: $paragraphfont;
+            font-size: 1.8rem;
+            padding-bottom:1rem ;
+
+            button {
+                border-top: none;
+                border-left: none;
+                border-right: none;
+                border-bottom: solid $submainbackgdcolor 2px;
+                border-radius: 2px;
+                font-family: $paragraphfont;
+                background-color: $mainfontcolor;
+                padding: 0 .2rem;
+                &:hover{
+                    border: none;
+                }
+            }
+        }
+
+        h5 {
+            padding-top: .5rem 0;
+            font-size: 1.6rem;
+
+        }
+        .paragraph3{
+            margin-top: .5rem;
+            font-family: $paragraphfont;
+            font-size: 1rem;
+            text-align: center;
+            i{
+                color: $buttoncolor;
+            }
+        }
+        
+    }
+
+}

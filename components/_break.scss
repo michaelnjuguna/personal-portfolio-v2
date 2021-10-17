@@ -1,0 +1,13 @@
+.break{
+    background: rgb(10, 35, 66);
+    background: radial-gradient(circle, rgba(10, 35, 66, 1) 50%, rgba(0, 0, 63, 1) 100%);
+    color: $mainfontcolor;
+    width: 100vw ;
+    min-height: 13rem;
+    .main-break{
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+        padding: 2rem 0;
+    }
+}
