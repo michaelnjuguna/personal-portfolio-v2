@@ -1,0 +1,329 @@
+//general header rules
+.index-header {
+    background: rgb(24, 123, 205);
+    background: radial-gradient(circle, rgba(24, 123, 205, 1) 50%, rgba(42, 157, 244, 1) 100%);
+    width: 100vw;
+    min-height: 70vh;
+    position: relative;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+
+    .index-main {
+        width: 80%;
+        padding-top: 5rem;
+        margin: 0 auto;
+
+        .main-info {
+            position: relative;
+            padding-top: 1rem;
+            .pattern {
+                padding-top: 1rem;
+                color: $buttoncolor;
+                max-width: 70%;
+
+                h1 {
+                    color: white !important;
+
+                }
+            }
+
+            .info-btn {
+                padding: 2rem 0;
+            }
+        }
+
+        .main-img {
+            padding: 3rem 0;
+
+            @media(min-width: 576px) {
+                padding: 0;
+            }
+
+            position: relative;
+
+            img {
+                width: 60%;
+                border-radius: 10px;
+                box-shadow: 5px 15px 15px 5px, $submainbackgdcolor;
+            }
+
+            h1 {
+                padding-bottom: 3rem;
+            }
+        }
+    }
+
+}
+
+//featured brands
+
+.index-brands {
+    width: 100vw;
+
+    .brands-main {
+        width: 80%;
+        margin: 0 auto;
+        padding: 2rem 0;
+
+        h1 {
+            text-align: center;
+        }
+
+        .brands {
+            text-align: center;
+        }
+
+        img {
+            width: 15rem;
+            text-align: center;
+            margin: 0 auto;
+            padding: 1rem;
+        }
+    }
+
+}
+
+
+
+//about me
+.about-me {
+
+    width: 100vw;
+    background: rgb(122, 215, 240);
+    background: radial-gradient(circle, rgba(122, 215, 240, 1) 50%, rgba(146, 223, 243, 1) 100%);
+    clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0% 100%);
+
+    .about-main {
+        position: relative;
+        width: 80%;
+        margin: 0 auto;
+        padding: 15rem 0;
+
+        .about-intro {
+            text-align: left;
+
+            p {
+                padding: 1.5rem 0;
+                line-height: 1.2;
+            }
+
+            strong {
+                text-decoration: underline;
+                font-weight: 600;
+                font-size: 2.5rem;
+                color: yellow;
+            }
+        }
+
+        .about-img {
+            text-align: center;
+
+            img {
+                width: 60%;
+                border-radius: 10px;
+                box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+                padding-top: 3rem;
+            }
+        }
+
+        .about-info {
+            padding: 2rem 0;
+
+            p {
+                padding: 2rem;
+                line-height: 1.5;
+            }
+        }
+    }
+
+}
+
+//break
+.about-br {
+    height: 20rem;
+
+    h1 {
+        padding-top: 8%;
+        padding-bottom: 2rem;
+    }
+
+    input {
+        font-size: 1.5rem;
+        border: none;
+        border-radius: 10px;
+    }
+}
+
+
+//about contact
+.about-contact {
+    width: 100vw;
+    text-align: center;
+
+    &__main {
+        width: 80%;
+        margin: 0 auto;
+        padding: 1.5rem 0;
+        position: relative;
+
+    }
+}
+
+.sign {
+    padding-top: 2rem;
+    font-size: 1.2rem;
+    font-family: $cursivefont;
+    padding-bottom: 3rem;
+}
+
+
+//about experience
+.about-experience {
+    width: 100vw;
+    text-align: center;
+
+    &__main {
+        padding-bottom: 1rem;
+    }
+}
+
+
+//services break
+
+.services-br {
+    h1 {
+        padding: 2rem;
+    }
+}
+
+
+//awesome services
+.index-service {
+    width: 100vw;
+    background: rgb(24, 123, 205);
+    background: linear-gradient(180deg, rgba(24, 123, 205, 1) 43%, rgba(146, 223, 243, 1) 100%);
+    clip-path: polygon(0 0, 100% 0%, 100% 90%, 0% 100%);
+
+    &__main {
+        width: 80%;
+        margin: 0 auto;
+        padding: 10rem 0;
+        text-align: center;
+
+        h1 {
+            margin: 1rem 0;
+        }
+
+    }
+
+}
+
+
+
+//my-skills
+
+.my-skills__main {
+    color: $secondaryfontcolor;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+//portfolio break
+.portfolio-br {
+    height: 14rem;
+
+    i {
+        padding: 2rem 0;
+    }
+
+    h5 {
+        font-family: $paragraphfont;
+        font-size: 1.5rem;
+    }
+
+    .magic {
+        display: inline-block;
+        width: 30%;
+        align-items: center;
+        padding: 0 .5rem;
+    }
+}
+
+
+//portfolio
+
+.portfolio {
+    width: 100vw;
+
+    .portfolio-main {
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+        padding: 2rem 0;
+    }
+}
+
+//testimonials
+
+.testimonial {
+    width: 100vw;
+    background: rgb(0, 0, 63);
+    background: radial-gradient(circle, rgba(0, 0, 63, 1) 15%, rgba(122, 215, 240, 1) 100%);
+    clip-path: polygon(0 10%, 100% 0%, 100% 90%, 0% 100%);
+
+    &-main {
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+        padding: 2rem 0;
+        h1{
+            padding-top: 5rem;
+            letter-spacing: .8rem;
+        }
+        p{
+            padding: .5rem 0;
+        }
+
+        img {
+            width: 8rem;
+            padding: 1rem 0;
+            border-radius: 50%;
+        }
+        .client{
+            display: block;
+            padding: 4rem 0;
+        }
+    }
+}
+
+//case studies
+.case-studies{
+    width: 100vw;
+    &__main{
+        width: 80%;
+        margin: 0 auto;
+        padding: 3rem;
+
+        .study{
+            width: 80%;
+            margin: 0 auto;
+            text-align: center;
+            padding: 2rem 0;
+            img{
+                width: 100%;
+                
+            }
+        }
+    }
+}
+
+
+//footer-br
+
+.index-footer-br{
+    height: 15rem;
+    h4{
+        padding: .5rem 0;
+    }
+}

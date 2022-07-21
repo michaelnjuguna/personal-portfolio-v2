@@ -1,0 +1,18 @@
+.logo {
+    color: $mainfontcolor;
+    font-family: $logofont;
+    text-align: center;
+    display: inline;
+    position: relative;
+    box-shadow: 5px 15px 15px 5px $maindarkbackgdcolor;
+
+    h1 {
+        background-color: $maindarkbackgdcolor;
+        display: inline;
+        font-size: 2rem;
+        margin: 0;
+        padding: .5rem;
+        position: absolute;
+        z-index: 10;
+    }
+}

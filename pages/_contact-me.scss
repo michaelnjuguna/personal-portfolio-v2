@@ -1,0 +1,53 @@
+.contact{
+    position: relative;
+    width: 100vw;
+    height: 70vh;
+    background-position: center;
+    background-size: 100%;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+
+    background-image: url(images/img-22.jpeg),linear-gradient(112.5deg, rgb(214, 214, 214) 0%, rgb(214, 214, 214) 10%,rgb(195, 195, 195) 10%, rgb(195, 195, 195) 53%,rgb(176, 176, 176) 53%, rgb(176, 176, 176) 55%,rgb(157, 157, 157) 55%, rgb(157, 157, 157) 60%,rgb(137, 137, 137) 60%, rgb(137, 137, 137) 88%,rgb(118, 118, 118) 88%, rgb(118, 118, 118) 91%,rgb(99, 99, 99) 91%, rgb(99, 99, 99) 100%),linear-gradient(157.5deg, rgb(214, 214, 214) 0%, rgb(214, 214, 214) 10%,rgb(195, 195, 195) 10%, rgb(195, 195, 195) 53%,rgb(176, 176, 176) 53%, rgb(176, 176, 176) 55%,rgb(157, 157, 157) 55%, rgb(157, 157, 157) 60%,rgb(137, 137, 137) 60%, rgb(137, 137, 137) 88%,rgb(118, 118, 118) 88%, rgb(118, 118, 118) 91%,rgb(99, 99, 99) 91%, rgb(99, 99, 99) 100%),linear-gradient(135deg, rgb(214, 214, 214) 0%, rgb(214, 214, 214) 10%,rgb(195, 195, 195) 10%, rgb(195, 195, 195) 53%,rgb(176, 176, 176) 53%, rgb(176, 176, 176) 55%,rgb(157, 157, 157) 55%, rgb(157, 157, 157) 60%,rgb(137, 137, 137) 60%, rgb(137, 137, 137) 88%,rgb(118, 118, 118) 88%, rgb(118, 118, 118) 91%,rgb(99, 99, 99) 91%, rgb(99, 99, 99) 100%),linear-gradient(90deg, rgb(195, 195, 195),rgb(228, 228, 228)); background-blend-mode:overlay,overlay,overlay,normal;
+
+
+    //headers
+
+}
+
+.contact-header{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    
+    @media (max-width:767px){
+        left:10%;
+    }
+
+    h1{
+        font-family: $mainheaderfont;
+        text-align: center;
+        font-size: 3rem;
+        word-spacing: .8rem;
+        letter-spacing: .3rem;
+        color: $secondaryfontcolor;
+    }
+    h2{
+        font-family: $cursivefont;
+        font-size: 1.8rem;
+        line-height: 1.5;
+        text-align: center;
+        padding: 1rem 0;
+        color: $secondaryfontcolor;
+        letter-spacing: .3rem;
+    }
+    h3{
+        font-family: $cursivefont;
+        font-size: 1.6rem;
+        line-height: 1.5;
+        text-align: center;
+        color: $secondaryfontcolor;
+        letter-spacing: .2rem;
+    }
+}
+.form{
+    font-size: 1.6rem;
+}
